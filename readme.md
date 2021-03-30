@@ -1,7 +1,9 @@
-#Portfolio 
-Link - [GitHub](http://github.com)
 
-### Technologie
+#Portfolio
+
+Link do Live - [Link](//krzychu7346.github.io/Portfolio)
+
+## Technologie
 * Bootstrap
 * JavaScript
 * LiveServer (SCSS)
