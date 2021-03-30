@@ -1,0 +1,257 @@
+@import "fonts";
+@import "colors";
+@import "header";
+@import "footer";
+@import "global";
+
+// ---- HERO ---- //
+
+.hero {
+    background-image: linear-gradient($gradient, $gradient), url("/src/img/heroimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    z-index: 1;
+
+    .box-text {
+        width: auto;
+
+        h1 {
+            position: relative;
+
+            animation-name: text-opacity;
+
+            animation-duration: 3s;
+
+            .text-background-animation {
+                background-color: $color1;
+                width: 0px;
+                height: 100%;
+                position: absolute;
+                animation-name: text-background-animation;
+                animation-duration: 2s;
+            }
+        }
+
+        button {
+            color: $white;
+            font-size: 1.125rem;
+            letter-spacing: 0.2rem;
+            border: 2px solid $color1;
+            padding: 20px 60px;
+            background-color: transparent;
+            margin-top: 15px;
+
+            &:hover {
+                transition: background-color 1s ease;
+                background-color: $color1;
+            }
+        }
+    }
+}
+
+// // Extra small devices (portrait phones, less than 576px)
+// @media (min-width: 576px) {
+//     .services {
+//         .mini-box {
+//             margin: 10px 5%;
+//         }
+//     }
+// }
+
+// // Medium devices (tablets, less than 992px)
+
+// @media (min-width: 992px) {
+//     .services {
+//         color: yellow;
+//         text-align: center;
+//     }
+// }
+
+// ---- Services ---- //
+
+.services {
+    .service-box-padding {
+        @media (min-width: 1400px) {
+            padding: 0px 150px;
+        }
+    }
+
+    .mini-box {
+        color: $white;
+        // background-image: $card-background;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        background-color: gray;
+        padding: 30px;
+        // max-height: 100%;
+        margin: 0px 2% 50px 2%;
+        min-height: 350px;
+        border-radius: 10px;
+
+        .icon {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 0px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        h3 {
+            padding: 5px 0px;
+        }
+
+        p {
+            text-align: justify;
+        }
+    }
+}
+
+// ---- Project ---- //
+
+.project {
+    .mini-box {
+        color: white;
+        background-image: $gradient1;
+        background-color: #607196;
+        padding: 30px 40px;
+        height: 100%;
+
+        h3,
+        h4 {
+            text-transform: capitalize;
+            text-align: left;
+        }
+        p {
+            text-align: left;
+            letter-spacing: 0.05rem;
+        }
+    }
+
+    .img-box {
+        width: auto;
+        height: 100%;
+        border: 10px solid #aea643;
+        img {
+            @media (max-width: 1199.98px) {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+// ---- AboutMe ---- //
+
+.about-me {
+    padding: 100px 20px;
+    text-align: center;
+
+    .boxtext {
+        margin-bottom: 60px;
+
+        h2 {
+            text-transform: uppercase;
+        }
+
+        .sectionp {
+            font-weight: 500;
+            font-size: 1.3rem;
+        }
+
+        button {
+            font-size: 1.2em;
+            font-weight: 500;
+            letter-spacing: 1px;
+            padding: 10px 40px;
+            border: 1px solid $color1;
+            background: transparent;
+            text-align: center;
+
+            &:hover {
+                transition: background-color 1s ease;
+                background-color: $color1;
+            }
+        }
+    }
+
+    .border-div {
+        position: relative;
+        width: 250px;
+        height: 360px;
+        border: 8px solid $color3;
+        margin: 0 auto; //mobile center
+        .img-box {
+            width: 250px;
+            height: 360px;
+            display: block;
+            position: absolute;
+            top: -30px;
+            left: 22px;
+
+            border: 8px solid white;
+
+            img {
+                max-width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+// ---- Kontakt ---- //
+.contact {
+    padding: 100px 0px;
+    letter-spacing: 0.2rem;
+
+    .mini-box {
+        //color: white;
+        // background-color: black;
+        border-radius: 10px;
+        margin: 0 10px 30px 10px;
+        box-shadow: 0px 0px 18px #000000;
+        color: $black;
+        padding: 10px;
+        max-height: 100%;
+
+        &:hover{
+            transition: all 0.5s ease-in-out;
+            box-shadow: none;
+        }
+
+        .icon {
+            margin: 0 auto;
+            width: 80px;
+            height: 80px;
+            margin-bottom: 0px;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .text {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+
+            p {
+                letter-spacing: 0.05rem;
+
+                a{
+                    text-decoration: none;
+                    color:$black;
+                }
+            }
+        }
+    }
+}
