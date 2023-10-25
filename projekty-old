@@ -1,0 +1,114 @@
+   <!--  -->
+            <!--        ROW         -->
+            <div class="row no-gutters ">
+                <div class="col-12 col-md-6 col-lg-6 p-0">
+                    <div class="mini-box">
+                        <h3 class="sectiontitle">project 1 </h3>
+                        <h4>Coding Antime</h4>
+                        <p>Strona napisana przy uzyciu:<br></p>
+                        <ul>
+                            <li>Bootstrap 5</li>
+                            <li>CSS (SCSS)</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                        </ul>
+                        <a class="btn btn-primary" href="//antime.pl" role="button" target="_blank">Zobacz Live</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6 p-0">
+                    <div class="img-box"><img src="./src/img/antime1.png" alt="Antime.pl image"></div>
+                </div>
+            </div>
+
+            <!--        ROW         -->
+            <div class="row no-gutters ">
+                <div class="col-12 col-md-6 col-lg-6  order-sm-2 order-1 p-0">
+                    <div class="img-box">
+                        <img src="http://antime.pl/img/project-images/azalialysek.png" alt="azalialysek.pl image">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6  order-md-2 p-0">
+                    <div class="mini-box">
+                        <h3>Project 2 </h3>
+                        <h4>Coding Azalia</h4>
+                        <p>Strona wykonana na zamowienie dla klienta, napisana przy uzyciu:<br></p>
+                        <ul>
+                            <li>Bootstrap 5</li>
+                            <li>CSS (SCSS)</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <a class="btn btn-primary" href="//azalialysek.pl" role="button" target="_blank">Zobacz Live</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--        ROW         -->
+            <div class="row no-gutters">
+                <div class="col-12  col-md-6 col-lg-6 p-0">
+                    <div class="mini-box">
+                        <h3>Project 3 </h3>
+                        <h4>Coding LandingPage</h4>
+                        <p>Strona wykonana na zamowienie dla klienta, napisana przy uzyciu:<br></p>
+                        <ul>
+                            <li>Bootstrap 4</li>
+                            <li>CSS (SCSS)</li>
+                            <li>JavaScript</li>
+                            <li>Bibiolteka AOS</li>
+                        </ul>
+                        <a class="btn btn-primary" href="//krzychu7346.github.io/LandingPage-2/app/index.html" role="button" target="_blank">Zobacz Live</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6 p-0 ">
+                    <div class="img-box ">
+                        <img src="//raw.githubusercontent.com/krzychu7346/LandingPage-2/master/LandingPage-smallimage.jpg" alt="" class="">
+                    </div>
+                </div>
+            </div>
+
+            <!--        ROW         -->
+            <div class="row no-gutters ">
+                <div class="col-12 col-md-6 col-lg-6 p-0 order-sm-2 order-1 ">
+                    <div class="img-box">
+                        <img src="//antime.pl/img/project-images/hempleydrinks-small.png" alt="HempleyDrinks image">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 p-0 order-md-2 ">
+                    <div class="mini-box">
+                        <h3>Project 4 </h3>
+                        <h4>Coding HempleyDrinks</h4>
+                        <p>Strona wykonana podczas współpracy z firmą Hempley</p>
+                        <ul>
+                            <li>Bootstrap</li>
+                        </ul>
+                        <a class="btn btn-primary" href="//hempleydrinks.com/" role="button" target="_blank">Zobacz
+                            Live</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--        ROW         -->
+            <div class="row no-gutters">
+                <div class="col-12  col-md-6 col-lg-6 p-0">
+                    <div class="mini-box">
+                        <h3>Project 5 </h3>
+                        <h4>Coding LandingPage</h4>
+                        <p>Strona wykonana na zamowienie dla klienta, napisana przy uzyciu:<br></p>
+                        <ul>
+                            <li>Bootstrap 4</li>
+                            <li>CSS (SCSS)</li>
+                            <li>JavaScript</li>
+                            <li>Bibiolteka AOS</li>
+                        </ul>
+                        <a class="btn btn-primary" href="//krzychu7346.github.io/LandingPage-2/app/index.html" role="button" target="_blank">Zobacz Live</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6 p-0 ">
+                    <div class="img-box "><img src="//raw.githubusercontent.com/krzychu7346/Landing-Page/master/LabdingPage.jpg" alt="Landing-Page image" class=""></div>
+                </div>
+            </div>
+
+            <!--    ROW END     -->

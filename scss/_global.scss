@@ -14,7 +14,6 @@ h1 {
     text-align: justify;
     font-weight: bold;
     color: white;
-    
 }
 
 h3 {
@@ -23,20 +22,20 @@ h3 {
     font-weight: 600 !important;
 }
 
-.my-text{
+.my-text {
     font-weight: bold;
-   
 }
-.section-padding{
+
+.section-padding {
     padding: 100px 0px 0px 0px;
 }
 
-.title-padding{
+.title-padding {
     padding: 40px 0px;
 }
 
-.text-container{
-         margin-bottom: 50px;
+.text-container {
+    margin-bottom: 50px;
 }
 
 .span-text-color {
@@ -49,18 +48,13 @@ h3 {
     font-size: 2.8rem !important;
     letter-spacing: 0.2rem;
     font-weight: 300;
-
     // @media (max-width: 575.98px) {
     //     font-size: 2.5rem;
     // }
-
     // @media (max-width: 991.98px) {
     //     font-size: 4rem;
     // }
 }
-
-
-
 
 .flex-center-page {
     min-height: 100vh;
@@ -70,7 +64,6 @@ h3 {
     flex-direction: column;
 }
 
-
 @keyframes text-background-animation {
     50% {
         width: 100%;
@@ -79,14 +72,26 @@ h3 {
     100% {
         width: 0;
         left: 100%;
-                        }
+    }
 }
 
 @keyframes text-opacity {
     0% {
-    opacity: 0;
+        opacity: 0;
     }
     100% {
         opacity: 1;
-                        }
+    }
+}
+
+.btn-portfolio {
+    color: #ffffff !important;
+    font-size: 1.125rem;
+    letter-spacing: 0.2rem;
+    border: 2px solid #aea643 !important;
+    background-color: transparent !important;
+    &:hover {
+        transition: background-color 1s ease !important;
+        background-color: #aea643 !important;
+    }
 }
